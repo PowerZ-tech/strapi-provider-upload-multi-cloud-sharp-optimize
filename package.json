@@ -1,0 +1,29 @@
+{
+  "name": "strapi-provider-upload-multi-cloud-sharp-optimize",
+  "version": "0.0.1",
+  "description": "Multi clouf + sharp optimize provider for strapi upload",
+  "keywords": [
+    "upload",
+    "ovh",
+    "g-cloud",
+    "sharp",
+    "aws",
+    "cloudfront",
+    "strapi"
+  ],
+  "main": "./lib",
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "dependencies": {
+    "aws-sdk": "2.892.0",
+    "sharp": "^0.30.6"
+  },
+  "engines": {
+    "node": ">=12.22.0 <=16.x.x",
+    "npm": ">=6.0.0"
+  }
+}

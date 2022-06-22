@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-multi-cloud-sharp-optimize",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Multi cloud + sharp optimize provider for strapi upload",
   "keywords": [
     "upload",
@@ -10,8 +10,7 @@
     "aws",
     "cloudfront",
     "strapi"
-  ],  
-
+  ],
   "main": "./lib",
   "directories": {
     "lib": "./lib"
@@ -19,7 +18,7 @@
   "scripts": {
     "test": "echo \"no tests yet\""
   },
-  "exec" : "yarn publish",
+  "exec": "yarn publish",
   "folder": "dist",
   "replacer": {
     "main": "index.js",

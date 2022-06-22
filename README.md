@@ -63,4 +63,4 @@ module.exports = ({ env }) => ({
 
 ## License
 
-See the [LICENSE](./LICENSE) file for licensing information.
+See the [LICENSE](https://github.com/Powerz-tech/strapi-provider-upload-multi-cloud-sharp-optimize/blob/main/LICENCE) file for licensing information.

@@ -1,5 +1,7 @@
 # strapi-provider-upload-multi-cloud-sharp-optimize
 
+* Upload your file to any cloud.
+* Can create copy of your files in the format you wish
 ## Installation
 
 ```bash

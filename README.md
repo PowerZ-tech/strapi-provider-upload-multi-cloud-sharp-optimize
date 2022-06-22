@@ -29,7 +29,7 @@ module.exports = ({ env }) => ({
         accessKeyId: env('CLOUD_KEY_ID'),
         secretAccessKey: env('CLOUD_SECRET'),
         params: {
-          Bucket: 'showcase-web',
+          Bucket: env('BUCKET_NAME'),
         },
         /* For other cloud then AWS */
         cdn: env('CLOUD_CDN'),

@@ -1,7 +1,7 @@
 {
   "name": "strapi-provider-upload-multi-cloud-sharp-optimize",
-  "version": "0.0.1",
-  "description": "Multi clouf + sharp optimize provider for strapi upload",
+  "version": "0.0.7",
+  "description": "Multi cloud + sharp optimize provider for strapi upload",
   "keywords": [
     "upload",
     "ovh",
@@ -10,7 +10,13 @@
     "aws",
     "cloudfront",
     "strapi"
-  ],
+  ],  
+  "exec" : "yarn publish",
+  "folder": "dist",
+  "replacer": {
+    "main": "index.js",
+    "types": "index.d.ts"
+  },
   "main": "./lib",
   "directories": {
     "lib": "./lib"

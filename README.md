@@ -60,3 +60,7 @@ module.exports = ({ env }) => ({
   // ...
 });
 ```
+
+## License
+
+See the [LICENSE](./LICENSE) file for licensing information.

@@ -11,12 +11,7 @@
     "cloudfront",
     "strapi"
   ],  
-  "exec" : "yarn publish",
-  "folder": "dist",
-  "replacer": {
-    "main": "index.js",
-    "types": "index.d.ts"
-  },
+
   "main": "./lib",
   "directories": {
     "lib": "./lib"
@@ -24,6 +19,17 @@
   "scripts": {
     "test": "echo \"no tests yet\""
   },
+  "exec" : "yarn publish",
+  "folder": "dist",
+  "replacer": {
+    "main": "index.js",
+    "types": "index.d.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PowerZ-tech/strapi-provider-upload-multi-cloud-sharp-optimize"
+  },
+  "license": "MIT",
   "dependencies": {
     "aws-sdk": "2.892.0",
     "sharp": "^0.30.6"

@@ -24,6 +24,9 @@
     "main": "index.js",
     "types": "index.d.ts"
   },
+  "publishConfig": {
+    "registry":"https://www.npmjs.com/package/strapi-provider-upload-multi-cloud-sharp-optimize"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/PowerZ-tech/strapi-provider-upload-multi-cloud-sharp-optimize"

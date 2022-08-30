@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-multi-cloud-sharp-optimize",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Multi cloud + sharp optimize provider for strapi upload",
   "keywords": [
     "upload",
